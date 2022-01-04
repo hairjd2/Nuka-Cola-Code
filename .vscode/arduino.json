@@ -1,4 +1,6 @@
 {
-    "programmer": "AVR ISP",
-    "port": "COM5"
+    "programmer": "arduino:avrisp",
+    "port": "COM5",
+    "board": "arduino:avr:uno",
+    "sketch": "Nuka-Cola-Code.ino"
 }
