@@ -1,6 +1,7 @@
 const int quarterButton = 2; //quarter button
 const int dimeButton = 4;
 const int ledPin = 13;// the number of the LED pin
+const int neededValue = 75;
 
 // Variables will change:
 int ledState = LOW;
@@ -66,8 +67,8 @@ void loop() {
       }
     }
 
-    if(inputtedValue >= 50) {
-      inputtedValue -= 50;
+    if(inputtedValue >= neededValue) {
+      inputtedValue -= neededValue;
       digitalWrite(ledPin, HIGH);
       delay(5000);
     }
