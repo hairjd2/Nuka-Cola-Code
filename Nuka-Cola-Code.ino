@@ -59,7 +59,7 @@ void loop() {
       inputtedValue -= NEEDED_VALUE;
       digitalWrite(LED_PIN, HIGH);
       // digitalWrite(MOTOR_PIN, HIGH);
-      analogWrite(MOTOR_PIN, 100);
+      analogWrite(MOTOR_PIN, MOTOR_SPEED);
       delay(5000);
       analogWrite(MOTOR_PIN, 0);
       // digitalWrite(MOTOR_PIN, LOW);
